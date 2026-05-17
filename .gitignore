@@ -1,0 +1,54 @@
+# Dependencies
+/node_modules
+/fat-kill/node_modules
+
+# Build artifacts
+/fat-kill/dist
+/fat-kill/build
+
+# Log files
+/fat-kill/npm-debug.log*
+/fat-kill/yarn-debug.log*
+/fat-kill/yarn-error.log*
+/fat-kill/pnpm-debug.log*
+/fat-kill/lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+/fat-kill/.env
+/fat-kill/.env.local
+/fat-kill/.env.*.local
+/fat-kill/server/.env
+
+# Server-specific files
+/fat-kill/server/node_modules
+
+# Vite-specific
+/fat-kill/.vite/
+/fat-kill/.svelte-kit/
+
+# IDE and editor directories
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Test and coverage reports
+/fat-kill/coverage
+/fat-kill/.nyc_output
+/fat-kill/reports
+
+# Misc
+/fat-kill/*.tsbuildinfo
+/fat-kill/*.swp
