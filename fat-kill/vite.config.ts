@@ -17,4 +17,9 @@ export default defineConfig({
       },
     },
   },
+  define: {
+    'import.meta.env.VITE_GEMINI_PROXY_URL': JSON.stringify(
+      process.env.VITE_GEMINI_PROXY_URL || ''
+    ),
+  },
 })
